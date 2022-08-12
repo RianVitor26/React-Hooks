@@ -1,7 +1,12 @@
-import { UseState } from "./components"
+import { UseState } from "./components/UseState"
+import Global  from './GlobalStyle'
+
 const App = () => {
   return (
-    <UseState />
+    <>
+      <UseState />
+      <Global />
+    </> 
   )
 }
 

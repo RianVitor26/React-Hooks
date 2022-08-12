@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Container } from './style'
 
 export const UseState = () => {
 
@@ -8,9 +9,10 @@ export const UseState = () => {
     }
 
   return (
-    <div>
-          <h1>{count}</h1>  
+    <Container>
+          <h1>UseState</h1>
+          <p>{count}</p>  
           <button onClick={incrementCount}>Increment</button>
-    </div>
+    </Container>
   )
 }
