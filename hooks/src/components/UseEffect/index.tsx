@@ -1,10 +1,11 @@
 import { useEffect } from "react"
+import * as C from './style'
 
 export const UseEffect = () => {
 
   return (
-    <div>
+    <C.Container>
           <h1>UseEffect</h1>  
-    </div>
+    </C.Container>
   ) 
 }
